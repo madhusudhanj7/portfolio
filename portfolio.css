@@ -1,0 +1,183 @@
+body{
+    background-color: lightblue ;
+    background-size: cover;
+    border-radius :2px;
+    margin:20px 40px 20px 40px;
+    border: 10px thick rgb(65, 41, 41);
+    outline-style: double;
+    outline-color: black;
+    outline-width: thick;
+    padding: 35px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDxUPDw8VFRUVFRUVFRUVFRUVFRUVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGg0PFSsZFRkrNysrKysrKysrKysrKy0rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQMEAgf/xAAkEAEAAgIABgIDAQAAAAAAAAAAAQMCMREhIjJR8HGBQZGxEv/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8A+1qigIqAAoICggKAioAKAIAAAAoAgACoCoACgCAAKgCoAOW/Hqn38Kt3dI3FdGOo+FecNPTCAgCggAAKIoCKgKCAAAogCggKIoCAAqAKACKigIAAAMLdiXcf9SrcVtjqPh6THQwgogKgoAigIACiAqCgAAIAKgoCAAogKioAKAIKCKIAogMLZjiJdHVKtxW+OlSIGEUEBRFBAUAQBUVJBRFBBQEABUFBAABUAFQAUBAlQRUUEFSQYWzzC3Y3FdAisICKACAAoAigIqAoIAKgCoAoICgAIACoAoIAoAIoCQKA57dhbPP3wNxW4owgigIoAioACgIKgAoAgAAoIoAgKACAqCgiiAAoIogAAMLdhbsbitwx0rCCKgCgCKgAKAIoCCgCAACgigCAoCKgKioAoAkgoIogAAMLdi27RuK3x0rzjr6VhFEUAQAFARRAVBQRUUEFARRAVFQBRAAUEBQBAAVAFAEFAc9mwt2NxW+OoV5x19PTCCACiACoAAAqAAqKAgACoAogAoAgAqCgiooJIAKIAAAwtjmJdPVI3FdEBCsIIAKCAKgAqKAkqgCiAAAAoIogAoAioCoKCKAJIKACAAA57u73wFvcrcVuoMIigCCgAAIAAKgAKAgoIACoKAIAKACAACgioAKACADC3uEunq98DcV0HFRhEAAFAQUBOIoCCgIKAgoCCgIKAgoAigIcVAQUBBQEFAQUBy3T1fr+KDpFf//Z");
+    background-repeat:no-repeat;
+
+    background-position: center;
+    background-attachment: fixed;
+    line-height :1.5px;
+
+    font-family:cursive ;
+}
+h1{
+    color: darkblue;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    background-color: lightgrey;
+    text-shadow: 3px 2px whitesmoke;
+}
+h4{
+    font-size: 25px;
+    font-style: oblique;
+    text-shadow: 3px 2px whitesmoke;
+}
+img{
+    height: 475px;
+    width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    float: center;
+    display:block;
+    background-color: grey;
+}
+nav{
+    list-style-type: square;
+}
+.mark{
+    font-size: 20px;
+    color: black;
+    font-family: cursive ;
+}
+.para {
+  font-size: 20px;
+  color: black;
+  font-family: cursive ;
+  line-height: 25px;
+}
+section {
+    margin: 10%;
+}
+nav{
+    margin: 6%;   
+}
+footer{
+    margin: 5%;
+}
+.fixit:hover{
+    widows: 1500px;
+}
+.list{
+    font-family: cursive;
+    font-size: 20px
+}
+.fixit{
+    float: center;
+    width: 70%;
+    padding: 5px;
+    margin: 2px;
+    transition: width 50s;
+    transform: scaleY(1);
+}
+.fixit:hover{
+    width:400px;
+}
+footer{
+    background-color: slategray;
+    float :right;
+}
+.foot{
+    width: 1200px;
+    height: 130px;
+    background-color: slategray;
+    font-size: 17px;
+}
+    
+#flex{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-content: flex-end;
+}
+.gallery{
+    float: left;
+    width: 30%;
+    height: 30%;
+    transition: width 3s;
+    transform: scaleY(1);
+}
+@media screen and (min-width: 480px){
+    body{
+    background-color: lightblue ;
+    background-size: cover;
+    border-radius :2px;
+    margin:20px 30px 20px 30px;
+    border: 10px thick rgb(65, 41, 41);
+    outline-style: double;
+    outline-color: black;
+    outline-width: thick;
+    padding: 30px;
+    text-align: justify;
+    letter-spacing: 0.4px;
+    background-repeat:no-repeat;
+
+    background-position: center;
+    background-attachment: fixed;
+    line-height :1.0;
+
+    font-family:cursive ;
+}
+img{
+    height: 375px;
+    width: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    float: center;
+    display:block;
+    background-color: white;
+}
+.mark{
+    font-size: 17px;
+    color: black;
+    font-family: cursive ;
+}
+.para {
+  font-size: 17px;
+  color: black;
+  font-family: cursive ;
+}
+.list{
+    font-family: cursive;
+    font-size: 17px
+}
+.fixit{
+    float: center;
+    width: 60%;
+    padding: 6px;
+    margin: 2px;
+    transition: width 60s;
+    transform: scaleY(1);
+}
+#flex{
+    display: flex;
+    flex-direction: column;
+}
+.gallery{
+    float: left;
+    width: 30%;
+    height:25%;
+    transition: width 1s;
+    transform: scaleY(1);
+}
+.foot{
+    width: 1200px;
+    height: 130px;
+    background-color: slategray;
+    font-size: 17px;
+}
+}
+
